@@ -1,0 +1,105 @@
+@media only screen and (max-width: 975px) {
+    #about .aboutus .Pic{
+        width: 30%;
+    }
+ 
+}
+
+@media only screen and (max-width: 840px){
+    #about {
+        width: 98%;
+    }
+    #about .aboutus {
+        justify-content: flex-start;
+        gap: 50px;
+    }
+    #about .aboutus .Pic{
+        width: 40%;
+    }
+    #about .aboutus .Information{
+        width: 370px;
+    }
+}
+
+
+@media only screen and (max-width: 730px){
+    #about {
+        height: fit-content;
+    }
+    #about .aboutus {
+        flex-direction: column;
+   
+    }
+    #about .aboutus .Pic{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 588px){
+    #about .newDesign{
+        height: fit-content;
+        flex-direction: column;
+    }
+    #about .newDesign .Pic{
+        width: 100%;
+    }
+    #about .newDesign .Information {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 540px){
+    body{
+        background-color: #3b3b3b;
+        height: 100vh;
+        
+        width: 95vw;
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (max-width: 540px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: fixed;
+        top: -100%;
+        left: 0;
+        z-index: 2;
+        background: #3b3b3b;
+        gap: 20px;
+    }
+    nav .logo .closeBtn{
+        display: flex;
+    }
+    nav .logo{
+      
+        padding: 0px 35px;
+    }
+    .smallScreenNavbar{
+        display: flex;
+    }
+    nav .Menus {
+        flex-direction: column;
+    }
+    nav .btns {
+        justify-content: center;
+    }
+    .menu.active::after {
+        content: '';
+        position: absolute;
+        bottom: 3px;
+        left: -1px;
+        display: none;
+        height: 3px;
+        width: 100%;
+        background-color: #2fff4b;
+        border-radius: 25px;
+    }
+}   
+@media only screen and (max-width: 365px){
+    #services .service{
+        height: fit-content;
+    }
+}

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="./mediaQueries.css">
+</head>
+
+<body>
+
+    <nav class="navbar" id="navbar">
+        <div class="logo">
+            <div>
+                <img src="" alt="">
+            <span>MyAI</span>
+            </div>
+            <div class="closeBtn">
+                <button onclick="hideNavbar()"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+        <div class="Menus">
+            <li onclick="setActive(this)" class="menu active"><a href="#home">Home</a></li>
+            <li onclick="setActive(this)" class="menu"><a href="#about">About</a></li>
+            <li onclick="setActive(this)" class="menu"><a href="#services">Services</a></li>
+            <li onclick="setActive(this)" class="menu"><a href="#clients">Clients</a></li>
+        </div>
+        <div class="btns">
+            <button>Sign in</button>
+        </div>
+    </nav>
+
+    <div class="smallScreenNavbar">
+        <div class="Logo">MyAI</div>
+        <div class="Icon"><button onclick="showNavbar()"><i class="fas fa-bars"></i></button></div>
+    </div>
+
+    <div class="Front-Page" id="home">
+        <div class="text">
+            <h1>AI will help you Boost Your Bussiness</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem placeat dignissimos temporibus a eos, ad incidunt mollitia eum quasi molestiae.</p>
+            <div class="btns">
+                <button>HIRE US</button>
+            </div>
+        </div>
+        <div class="image">
+            <img src="./ai-removebg-preview.png" alt="Image">
+        </div>
+    </div>
+
+
+
+    <div id="about">
+        <h1>About Us</h1>
+       
+        
+        <div class="newDesign">
+            <div class="Pic">
+                <img src="./headerImage.png">
+            </div>
+            <div class="Information">
+                <div class="box"></div>
+                <h4>Who we are?</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor corrupti doloribus deleniti veritatis repellat? Fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quod ratione, culpa libero aut aperiam quibusdam nam voluptatibus natus ad fugiat ipsum temporibus consequuntur pariatur sint architecto a quae laborum. Laboriosam ex quis ut vitae voluptatum. Iste aspernatur fugit autem? Quam, debitis voluptatum! Molestiae maxime vero harum quas, possimus incidunt iure excepturi, obcaecati magni quam rem commodi. Nihil minus amet sint sequi aliquid. Blanditiis quaerat quibusdam libero maiores, similique amet quam rem maxime harum aliquid corrupti minus suscipit saepe culpa accusamus officia. Repellendus laborum eum beatae, itaque quasi aperiam velit voluptas asperiores quibusdam ab, alias totam. Nobis labore porro eaque? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima neque accusantium inventore maiores, nemo labore quia quam nostrum quo sunt, ullam veniam fugiat aspernatur amet est delectus suscipit officiis distinctio voluptas repudiandae nihil. Asperiores, </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <h1>Our Services</h1>
+        <div class="services">
+        <div class="service">
+            <div class="logo">
+                <i class="fa-solid fa-layer-group"></i>
+            </div>
+            <div class="title">AI Applications</div>
+            <p class="details">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum aperiam itaque asperiores amet reiciendis? Ut rerum numquam inventore voluptas officiis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas delectus itaque atque ratione veritatis aspernatur.</p>
+        </div>
+        <div class="service">
+            <div class="logo">
+                <i class="fa-solid fa-gear"></i>
+            </div>
+            <div class="title">Machine Unlearning</div>
+            <p class="details">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum aperiam itaque asperiores amet reiciendis? Ut rerum numquam inventore voluptas officiis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas delectus itaque atque ratione veritatis aspernatur.</p>
+        </div>
+        <div class="service">
+            <div class="logo">
+                <i class="fa-brands fa-squarespace"></i>
+            </div>
+            <div class="title">Algorithms Development</div>
+            <p class="details">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum aperiam itaque asperiores amet reiciendis? Ut rerum numquam inventore voluptas officiis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas delectus itaque atque ratione veritatis aspernatur.</p>
+        </div>
+
+        <div class="service">
+            <div class="logo">
+                <i class="fa-solid fa-cloud"></i>
+            </div>
+            <div class="title">Model Deployment</div>
+            <p class="details">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum aperiam itaque asperiores amet reiciendis? Ut rerum numquam inventore voluptas officiis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas delectus itaque atque ratione veritatis aspernatur.</p>
+        </div>
+        </div>
+    </div>
+
+    <div id="clients">
+        <h1>Our Clients</h1>
+        <div class="clients">
+            <li class="client"><img src="./Clients/google.png" alt="notFounding" style="width: 30%;"></li>
+            <li class="client"><img src="./Clients/openai.png" alt="notFounding" style="width: 50%;"></li>
+            <li class="client"><img src="./Clients/microsoft.png" alt="notFounding" style="width: 50%;"></li>
+            <li class="client"><img src="./Clients/amazong.png" alt="notFounding" style="width: 45%;"></li>
+            <li class="client"><img src="./Clients/spacex.png" alt="notFounding" style="width: 55%;"></li>
+            <li class="client"><img src="./Clients/netflix.png" alt="notFounding" style="width: 50%;"></li>
+        </div>
+    </div>
+
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+  
+          <h3>Company<span>logo</span></h3>
+  
+          <p class="footer-links">
+            <a href="#home" class="link-1">Home</a>
+            
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            
+            <a href="#clients">Clients</a>
+          </p>
+  
+          <p class="footer-company-name">MyAI © 2015</p>
+        </div>
+  
+        <div class="footer-center">
+  
+          <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Karachi</span>Sindh , Pakistan</p>
+          </div>
+  
+          <div>
+            <i class="fa fa-phone"></i>
+            <p>+92 3075516280</p>
+          </div>
+  
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:nrind4956@gmail.com">Mail me</a></p>
+          </div>
+  
+        </div>
+  
+        <div class="footer-right">
+  
+          <p class="footer-company-about">
+            <span>About the company</span>
+            Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+          </p>
+  
+          <div class="footer-icons">
+  
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+  
+          </div>
+  
+        </div>
+  
+      </footer>
+
+      <script>
+        let nav = document.getElementById("navbar");
+        let menus = document.getElementsByClassName("menu")
+        const showNavbar = () =>{
+            nav.style.top = "0";
+        }
+        const hideNavbar = () =>{
+            nav.style.top = "-100%";
+        }
+        function setActive(params) {
+          for (let index = 0; index < menus.length; index++) {
+                if (menus[index].innerText == params.innerText) {
+                    menus[index].classList.add("active")
+                }else{
+                    menus[index].classList.remove("active") 
+                }
+            }
+        }
+      </script>
+</body>
+
+</html>
